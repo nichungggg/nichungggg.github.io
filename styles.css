@@ -9,6 +9,10 @@ h1, h2 {
   color: #89b4fa;
 }
 
+h2 {
+  margin-top: 100px;
+}
+
 a {
   color: #89b4fa;
 }
@@ -20,9 +24,12 @@ a:hover {
 .gallery {
   display: flex;
   justify-content: center;
-  gap: 20px;
+  align-items: center;
+  flex-wrap: wrap;
+  gap: 40px;
 }
 
 .gallery img {
   width: 400px;
+  height: auto;
 }
